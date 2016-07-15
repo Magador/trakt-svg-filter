@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trakt.tv svg filter test</title>
+  <style type="text/css">
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    .background-filtered {
+      height: 50vh;
+      background: url(http://lorempixel.com/400/200/);
+      filter: url(./filter.svg#blur);
+    }
+  </style>
+</head>
+<body>
+  <div class="background-filtered"></div>
+</body>
+</html>
